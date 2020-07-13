@@ -47,7 +47,7 @@ var spotifyThis = function (functionInfo) {
   searchQuery = functionInfo;
   console.log(searchQuery);
   if (!searchQuery) {
-    searchQuery = "The Sign by Ace of Base"
+    searchQuery = "Superstar Part Zero by K-Os"
   }
 
 
@@ -96,7 +96,7 @@ userPick (process.argv[2], query);
 function movieThis(movieName) {
 
   if (movieName === '') {
-    movieName = "Mr. Nobody"
+    movieName = "The Golden Child"
   }
 
   var url = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&tomatoes=true&apikey=trilogy";
@@ -124,9 +124,9 @@ function movieThis(movieName) {
         console.log("Error occurred.")
     }
     //Response if user does not type in a movie title
-    if (movieName === "The Secret Window") {
+    if (movieName === "House II") {
         console.log("-----------------------");
-        console.log("If you haven't watched 'The Secret Window,' then you should: https://www.imdb.com/title/tt0363988/?ref_=fn_al_tt_1");
+        console.log("If you haven't watched 'House II,' then you should: https://www.imdb.com/title/tt0363988/?ref_=fn_al_tt_1");
         console.log("It's on Netflix!");
     }
   }

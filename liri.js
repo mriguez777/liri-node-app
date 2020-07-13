@@ -44,7 +44,7 @@ var getArtistNames = function (artist) {
 // Function for running a Spotify search - Command is spotify-this-song
 var getSpotify = function (songName) {
     if (songName === undefined) {
-        songName = "What's my age again";
+        songName = "I'm Gonna Miss Her";
     }
 
     spotify.search(
@@ -197,7 +197,7 @@ ${4 + 4}`
             console.log("Error occurred.")
         }
         //Response if user does not type in an event title
-        if (artistName === "Taking Back Sunday") {
+        if (artistName === "Wu-Tang Clan Ain't Nuthin' Ta F' Wit") {
             console.log("-----------------------");
             console.log("If you haven't heard of them,' then you should");
             console.log("It's on Youtube!");
@@ -234,7 +234,7 @@ function getArtist() {
             console.log("Error occurred.")
         }
         //Response if user does not type in an event title
-        if (artistName === "Taking Back Sunday") {
+        if (artistName === "Wu-Tang Clan Ain't Nuthin' Ta F' Wit") {
             console.log("-----------------------");
             console.log("If you haven't heard of them,' then you should");
             console.log("It's on Youtube!");

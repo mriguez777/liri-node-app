@@ -1,7 +1,7 @@
 var obj = {
   thing: "value",
-  thing2: "Chelsea",
-  thing3: "Zintis"
+  thing2: "Michael",
+  thing3: "Rodriguez"
 }
 
 console.log(obj.thing3);
